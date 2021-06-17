@@ -1,0 +1,16 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "packages/app/index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "update:version": "lerna version --no-push"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
