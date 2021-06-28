@@ -1,1 +1,1 @@
-lerna version --no-push
+lerna version "$*" --no-push
